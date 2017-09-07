@@ -1,0 +1,7 @@
+<!--suppress XmlUnboundNsPrefix -->
+<setupxml>
+     <setup key="SatFTAcustommiximporter" title="SatFTA CustomMix">
+        <item level="2" text="Enable autofetch" description="Allows you automatically fetch the SatFTA CustomMix file.">config.plugins.SatFTAImporter.enableImporter</item>
+        <item level="2" text="Lead time"  requires="config.plugins.SatFTAImporter.enableImporter" description="Number of minutes prior to the ABM scan that the CustomMix file should be fetched">config.plugins.SatFTAImporter.leadTime</item>
+    </setup>
+</setupxml>
