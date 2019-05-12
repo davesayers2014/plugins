@@ -1,3 +1,6 @@
+echo "Downloading latest e2iplayer from gitlab please wait"
+sleep 3
+echo $LINE
 rm -rf /tmp/e2iplayer-master
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
 cd /tmp 
@@ -8,4 +11,5 @@ cp -r e2iplayer-master/IPTVPlayer /usr/lib/enigma2/python/Plugins/Extensions/IPT
 rm -rf e2iplayer-master
 
 sync
-reboot
+echo $LINE
+echo "Latest e2iplayer downloaded please reboot box"
