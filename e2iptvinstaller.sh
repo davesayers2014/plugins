@@ -8,4 +8,4 @@ cp -r e2iplayer-master/IPTVPlayer /usr/lib/enigma2/python/Plugins/Extensions/IPT
 rm -rf e2iplayer-master
 
 sync
-init 4 && init 3
+reboot
