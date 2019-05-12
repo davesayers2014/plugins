@@ -1,4 +1,4 @@
-rm -rf e2iplayer-master
+rm -rf /tmp/e2iplayer-master
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
 cd /tmp 
 wget https://gitlab.com/e2i/e2iplayer/-/archive/master/e2iplayer-master.zip
