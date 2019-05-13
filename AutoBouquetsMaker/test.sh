@@ -10,16 +10,13 @@ if [ -e /usr/lib/enigma2/python/BoxBrandingTest.pyo ]; then
 		opkg install https://github.com/davesayers2014/plugins/blob/master/AutoBouquetsMaker/enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git594+b6397ce-r0_mips32el.ipk?raw=true
 		echo "*********************************"
 		echo "                                  "
-		exit 1
-	fi
 else
 	echo "                                  "
 	echo "**********************************"
 	opkg install https://github.com/davesayers2014/plugins/blob/master/AutoBouquetsMaker/enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git594+b6397ce-r0_cortexa15hf-neon-vfpv4.ipk?raw=true
 	echo "*********************************"
 	echo "                                  "
-	exit 1
-fi
+
 echo $LINE
 echo "Reinstalling E2iplayer"
 rm -rf e2iplayer-master
