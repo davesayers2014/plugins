@@ -15,7 +15,7 @@ else
 	echo "**********************************"
 	opkg install https://github.com/davesayers2014/plugins/blob/master/AutoBouquetsMaker/enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git594+b6397ce-r0_cortexa15hf-neon-vfpv4.ipk?raw=true
 	echo "*********************************"
-then
+	then
 	echo $LINE
 	echo "Reinstalling E2iplayer"
 	rm -rf e2iplayer-master
