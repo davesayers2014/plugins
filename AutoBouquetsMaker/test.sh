@@ -31,7 +31,7 @@ else
 	opkg install https://github.com/davesayers2014/plugins/blob/master/AutoBouquetsMaker/enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git594+b6397ce-r0_cortexa15hf-neon-vfpv4.ipk?raw=true
 	echo "*********************************"
 	echo "                                  "
-	exit 1
+	#exit 1
 fi
 
 exit 0
