@@ -33,6 +33,8 @@ if [ -e /usr/lib/enigma2/python/BoxBrandingTest.pyo ]; then
 		echo "                                  "
 		exit 1
 	fi
+		echo "Plugins Updated please reboot box"
+		
 else
 	echo "                                  "
 	echo "**********************************"
