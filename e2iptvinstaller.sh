@@ -1,5 +1,4 @@
 #!/bin/sh
-##setup command=wget https://www.softrix.co.uk/istream/installer.sh -O - | /bin/sh
 
 # remove old version
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
