@@ -1,14 +1,22 @@
 #!/bin/sh
-#echo $LINE
-#echo "Reinstalling E2iplayer"
-#rm -rf e2iplayer-master
-#rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
-#cd /tmp 
-#wget https://gitlab.com/e2i/e2iplayer/-/archive/master/e2iplayer-master.zip
-#unzip e2iplayer-master.zip
-#rm /tmp/e2iplayer-master.zip
-#cp -r e2iplayer-master/IPTVPlayer /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
-#rm -rf e2iplayer-master
+
+# remove old version
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
+
+# Download and install plugin
+cd /tmp 
+set -e
+wget "https://www.softrix.co.uk/istream/downloads/e2istream_pythonX.X.tar.gz"
+
+tar -xzf e2istream_pythonX.X.tar.gz -C /
+set +e
+rm -f e2istream_pythonX.X.tar.gz
+cd ..
+
+sync
+echo "#########################################################"
+echo "#   	e2iStream INSTALLED SUCCESSFULLY	      #"
+echo "#########################################################"
 
 #sync
 #echo $LINE
