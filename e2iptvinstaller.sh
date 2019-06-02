@@ -1,15 +1,21 @@
-echo "Downloading latest e2iplayer from gitlab please wait"
-sleep 3
-echo $LINE
-rm -rf /tmp/e2iplayer-master
+#!/bin/sh
+##setup command=wget https://www.softrix.co.uk/istream/installer.sh -O - | /bin/sh
+
+# remove old version
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
+
+# Download and install plugin
 cd /tmp 
-wget https://gitlab.com/e2i/e2iplayer/-/archive/master/e2iplayer-master.zip
-unzip e2iplayer-master.zip
-rm e2iplayer-master.zip
-cp -r e2iplayer-master/IPTVPlayer /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
-rm -rf e2iplayer-master
+set -e
+wget "https://www.softrix.co.uk/istream/downloads/e2istream_pythonX.X.tar.gz"
+
+tar -xzf e2istream_pythonX.X.tar.gz -C /
+set +e
+rm -f e2istream_pythonX.X.tar.gz
+cd ..
 
 sync
-echo $LINE
-echo "Latest e2iplayer downloaded please reboot box"
+echo "#########################################################"
+echo "#   e2iStream INSTALLED SUCCESSFULLY please reboot box  #"
+echo "#########################################################"
+echo "Latest e2iplayer downloaded "
