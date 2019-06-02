@@ -1,4 +1,18 @@
 #!/bin/sh
+echo "#########################################################"
+echo "#          	E2tools plugin script 		      #"
+echo "#########################################################"
+echo "#########################################################"
+echo "#          	P;ease wait till script complets      #"
+echo "#########################################################"
+
+echo $LINE
+echo $LINE
+echo "#########################################################"
+echo "#               Installing e2iStream            	      #"
+echo "#########################################################"
+echo $LINE
+echo $LINE
 
 # remove old version
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
@@ -15,7 +29,7 @@ cd ..
 
 sync
 echo "#########################################################"
-echo "#   	e2iStream INSTALLED SUCCESSFULLY	      #"
+echo "#          e2iStream INSTALLED SUCCESSFULLY             #"
 echo "#########################################################"
 
 #sync
@@ -32,8 +46,9 @@ if [ -e /usr/lib/enigma2/python/BoxBrandingTest.pyo ]; then
 		echo "*********************************"
 		echo "                                  "
 		exit 1
-	fi
 		echo "Plugins Updated please reboot box"
+	fi
+		
 		
 else
 	echo "                                  "
