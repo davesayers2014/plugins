@@ -1,9 +1,9 @@
 #!/bin/sh
 echo "##########################################################"
-echo "# 		E2tools plugin script						    "
+echo "# 		E2tools plugin script			"
 echo "##########################################################"
 echo "##########################################################"
-echo "#		Please wait till script complets					"
+echo "#		Please wait till script complets		"
 echo "##########################################################"
 
 echo $LINE
