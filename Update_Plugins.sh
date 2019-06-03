@@ -14,14 +14,6 @@ echo "#########################################################"
 echo $LINE
 echo $LINE
 
-echo $LINE
-echo $LINE
-echo "#########################################################"
-echo "#               Installing e2iStream            	      #"
-echo "#########################################################"
-echo $LINE
-echo $LINE
-
 # remove old version
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPTVPlayer
 
