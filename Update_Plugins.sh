@@ -45,8 +45,8 @@ if [ -e /usr/lib/enigma2/python/BoxBrandingTest.pyo ]; then
 		opkg install https://github.com/davesayers2014/plugins/blob/master/AutoBouquetsMaker/enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git594+b6397ce-r0_mips32el.ipk?raw=true
 		echo "*********************************"
 		echo "                                  "
-		exit 1
 		echo "Plugins Updated please reboot box"
+		exit 1
 	fi
 		
 		
