@@ -57,7 +57,7 @@
 "Premier 2 HD": "Premier 2",
 "Sky Animation HD": "Sky Animation",
 "Sky Drama HD": "JuliaRobertsHD",
-"Sky Drama": "JuliaRoberts",
+"Sky Drama": "Julia Roberts",
 "Lifetime HD": "Lifetime",
 "Sky SciFi & Hor HD": "Sky ScFi/Horror",
 "Sky ScFi Horror": "Sky ScFi/Horror",
