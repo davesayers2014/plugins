@@ -25,3 +25,4 @@ echo $LINE
 echo "#########################################################"
 echo "Files Downloaded exit and run slyk-epg-7-day-downloader"
 echo "#########################################################"
+rm -f /home/root/Slyk7daydownloader.sh
