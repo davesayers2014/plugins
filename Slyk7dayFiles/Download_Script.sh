@@ -4,7 +4,6 @@ echo "Downloading Slyk7Day file"
 echo "##########################################################"
 echo "Please wait till script complets"
 echo "##########################################################"
-
 echo $LINE
 echo $LINE
 echo "#########################################################"
@@ -12,7 +11,6 @@ echo "Downloading lamedb"
 echo "#########################################################"
 echo $LINE
 echo $LINE
-
 # Download lamedb
 wget -O /etc/enigma2/slykepg7day/lamedb "https://raw.githubusercontent.com/davesayers2014/plugins/master/Slyk7dayFiles/lamedb"
 echo $LINE
