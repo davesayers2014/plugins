@@ -18,3 +18,4 @@ echo "#########################################################"
 echo "#   e2iStream INSTALLED SUCCESSFULLY please reboot box  #"
 echo "#########################################################"
 echo "Latest e2iplayer downloaded "
+reboot
