@@ -1,3 +1,4 @@
+opkg update && opkg install -force-overwrite https://github.com/oe-alliance/3rdparty-plugins/blob/master/enigma2-plugin-extensions-jedimakerxtream_5.29.20200129_all.ipk?raw=true
 echo "JediMakerXtream playlist setup"
 echo $LINE
 echo $LINE
