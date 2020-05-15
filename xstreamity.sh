@@ -16,7 +16,7 @@ unzip -oq /tmp/XStreamity-master.zip
   
 p -pr /tmp/XStreamity-master/XStreamity/usr/lib/enigma2/python/* /usr/lib/enigma2/python/
 
-rm -rf /tmp/XStreamity-master /tmp/master.zip
+rm -rf /tmp/XStreamity-master /tmp/XStreamity-master.zip
 
 echo "\n XStreamity playlist setup"
 echo $LINE
