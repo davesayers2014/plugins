@@ -14,7 +14,7 @@ wget -O /tmp/XStreamity-master.zip https://github.com/kiddac/XStreamity/archive/
 echo "\n  unzipping file"
 unzip -oq /tmp/XStreamity-master.zip
   
-p -pr /tmp/XStreamity-master/XStreamity/usr/lib/enigma2/python/* /usr/lib/enigma2/python/
+cp -pr /tmp/XStreamity-master/XStreamity/usr/lib/enigma2/python/* /usr/lib/enigma2/python/
 
 rm -rf /tmp/XStreamity-master /tmp/XStreamity-master.zip
 
