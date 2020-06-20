@@ -27,7 +27,7 @@ cp -pr /tmp/XStreamity-master/XStreamity/usr/lib/enigma2/python/* /usr/lib/enigm
 
 rm -rf /tmp/XStreamity-master /tmp/XStreamity-master.zip
 
-echo XStreamity playlist setup"
+echo "XStreamity playlist setup"
 echo $LINE
 echo $LINE
 read -p "Enter the username for your IPTV  : " username
