@@ -1,6 +1,3 @@
-#!/bin/sh
-
-
 cd /tmp
 
 unset LD_PRELOAD
