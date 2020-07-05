@@ -27,6 +27,8 @@ cp -pr /tmp/XStreamity-master/XStreamity/usr/lib/enigma2/python/* /usr/lib/enigm
 
 rm -rf /tmp/XStreamity-master /tmp/XStreamity-master.zip
 
+wget -O /usr/script/UpdXstreamity.sh https://raw.githubusercontent.com/davesayers2014/plugins/master/UpdXstreamity.sh
+
 echo "XStreamity playlist setup"
 echo $LINE
 echo $LINE
