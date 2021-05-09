@@ -1,3 +1,4 @@
+#command wget --no-check-certificate -O IPTV.sh https://raw.githubusercontent.com/davesayers2014/plugins/master/iptv.sh && chmod +x IPTV.sh && ./IPTV.sh #
 opkg update && opkg install -force-overwrite https://github.com/davesayers2014/plugins/blob/master/enigma2-plugin-extensions-jedimakerxtream_6.15.20210508_all.ipk?raw=true &> /dev/null 2>&1
 echo "JediMakerXtream playlist setup"
 echo $LINE
