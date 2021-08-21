@@ -6,15 +6,6 @@ echo "XStreamity update script"
 echo $LINE
 echo $LINE
 echo "XStreamity Download latest XStreamity from github"
-opkg install python-image
-
-opkg install python-imaging
-
-opkg install python-argparse
-
-opkg install python-requests
-
-opkg install python-multiprocessing
 
 
 
