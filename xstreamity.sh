@@ -2,8 +2,10 @@ cd /tmp
 
 unset LD_PRELOAD
 
-echo "XStreamity setup script"
+echo "XStreamity setup script version"
 
+content=$(wget https://raw.githubusercontent.com/kiddac/XStreamity/master/XStreamity/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/version.txt -q -O -)
+echo $content
 
 echo "downloading file"
 
