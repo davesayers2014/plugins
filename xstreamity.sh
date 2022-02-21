@@ -1,3 +1,5 @@
+#command wget --no-check-certificate -O IPTV.sh https://raw.githubusercontent.com/davesayers2014/plugins/master/xstreamity.sh && chmod +x IPTV.sh && ./IPTV.sh
+
 cd /tmp
 
 unset LD_PRELOAD
